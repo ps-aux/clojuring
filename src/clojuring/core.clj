@@ -1,10 +1,10 @@
 (ns clojuring.core
   (:gen-class))
-(require 'clojuring.chapter-1)
+(require 'clojuring.chapter-2)
 
 
 (defn foo []
-  (clojuring.chapter-1/go))
+  (clojuring.chapter-2/go))
 
 
 (defn -main
